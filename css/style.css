@@ -1,0 +1,24 @@
+img{width: 350px;height: 250px;}
+
+.div-imagem{
+	position:relative;
+	overflow:hidden;
+}
+
+.div-imagem:hover .caption{display: block;}
+
+.caption{
+	position:absolute;
+	top:0;
+	right:0;
+	background:rgba(30, 30, 153, 0.6);
+	width:100%;
+	height: 100%;
+	display: none;
+	text-align:center;
+	color:#fff !important;
+	z-index: 10;
+}
+.descricao{
+	text-align: center;
+}
